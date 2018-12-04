@@ -88,7 +88,7 @@ footer {
 /*------------- Index.html Styles-------------*/
 #index-nav-wrapper {
     margin: 0 auto;
-    width: 1000px;
+    width: 740px;
 }
 
 #self-portrait {
@@ -161,7 +161,7 @@ fieldset{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: absolute;
-    bottom: 20px;
+    bottom: 35px;
     left: 0px;
     background-color: #4aaaa5;
     width:200px;
