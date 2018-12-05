@@ -30,7 +30,7 @@ header {
 }
 
 #wrapper {
-    background-image: url('https://github.com/MichaelWilkens/MichaelWilkens.github.io/blob/master/assets/images/bricks-edit.jpg?raw=true');
+    background-image: url('../images/bricks-edit.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: calc(100vh - 50px);
