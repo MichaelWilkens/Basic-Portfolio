@@ -88,7 +88,7 @@ footer {
 /*------------- Index.html Styles-------------*/
 #index-nav-wrapper {
     margin: 0 auto;
-    width: 740px;
+    width: 960px;
 }
 
 #self-portrait {
@@ -103,7 +103,7 @@ footer {
     color: #777777;
     margin:30px auto;
     border: 2px #cccccc solid;
-    width: 960px;
+    width: 920px;
     background-color: #ffffff;
     padding: 20px;
     line-height: 1.5em;
@@ -182,7 +182,7 @@ fieldset{
 
 @media (max-width: 1100px) {
     .main-content {
-        width: 800px;
+        width: 700px;
     }
     #index-nav-wrapper, 
     #portfolio-nav-wrapper {
@@ -192,7 +192,7 @@ fieldset{
 
 @media (max-width: 900px) {
     .main-content {
-        width: 700px;
+        width: 560px;
     }
     #index-nav-wrapper, 
     #portfolio-nav-wrapper {
@@ -212,7 +212,7 @@ fieldset{
 
 @media (max-width: 800px) {
     .main-content {
-        width: 450px;
+        width: 420px;
     }
     #index-nav-wrapper, 
     #portfolio-nav-wrapper {
@@ -241,10 +241,14 @@ fieldset{
 }
 
 @media (max-width: 550px) {
+    #wrapper {
+        min-height: 900px;
+    }
+    
     .main-content {
         width: 300px;
         margin-top: 100px;
-        margin-bottom: 100px;
+        
     }
     #index-nav-wrapper, 
     #portfolio-nav-wrapper {
@@ -289,13 +293,17 @@ fieldset{
         width:100%;
     }
     .contact-main-content {
-        width: 300px;
+        width: 250px;
         margin-top: 100px;
     }
 
     .portfolio-image, 
     .portfolio-image-text {
-        margin: 20px 50px;
+        margin: 20px 25px;
+    }
+
+    footer {
+        padding: 5px;
     }
 
   
