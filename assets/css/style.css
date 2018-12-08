@@ -255,7 +255,7 @@ fieldset{
         width: 100%;
     }
     #wrapper {
-        background-size: 450%;
+        background-size: 500%;
     }
     h1 {
         font-size: 1em;
@@ -286,8 +286,8 @@ fieldset{
         padding-left: 50px;
     }
 
-    #wrapper {
-        min-height: 1500px;
+    body, html, #wrapper {
+        min-height: 1600px;
     }
     #contact-nav-wrapper {
         width:100%;
